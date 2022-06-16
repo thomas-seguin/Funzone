@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BookItem" representedClassName=".BookItem" syncable="YES">
+        <attribute name="coverName" optional="YES" attributeType="String"/>
+        <attribute name="pdfName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MusicItem" representedClassName=".MusicItem" syncable="YES">
+        <attribute name="albumName" optional="YES" attributeType="String"/>
+        <attribute name="artistName" optional="YES" attributeType="String"/>
+        <attribute name="imageName" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="tackName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NoteItem" representedClassName=".NoteItem" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="noteText" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserItem" representedClassName=".UserItem" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="NoteItem" positionX="-54" positionY="-9" width="128" height="74"/>
+        <element name="BookItem" positionX="-18" positionY="45" width="128" height="59"/>
+        <element name="MusicItem" positionX="9" positionY="81" width="128" height="104"/>
+        <element name="UserItem" positionX="36" positionY="126" width="128" height="74"/>
+    </elements>
+</model>
