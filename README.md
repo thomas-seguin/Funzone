@@ -17,3 +17,4 @@ List of features ready
 * Create personalized notes
 
 
+https://git.work.cognizant.studio/enablement/e-remote-enablement/implementations/team-projects/ios082022/pixelgram-ios.git
